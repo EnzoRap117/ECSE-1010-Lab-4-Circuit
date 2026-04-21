@@ -11,9 +11,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 Explain how your project works
 
-## How to test
+This project uses a series of NAND gates to store values Q0 and Q1 that can only be changed by the inputs S and R if the enable pin is active.
 
 Explain how to use your project
+
+To use the circuit, supply voltage to the enable pin to allow write access and supply voltage to either the S or R inputs to change the values of Q0 and Q1.
 
 ## External hardware
 

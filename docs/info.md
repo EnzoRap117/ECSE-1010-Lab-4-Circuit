@@ -17,6 +17,19 @@ Explain how to use your project
 
 To use the circuit, supply voltage to the enable pin to allow write access and supply voltage to either the S or R inputs to change the values of Q0 and Q1.
 
+The following table shows how the circuit should function, each line should be viewed as one step in sequence.
+
+  S  |  R  |  E  |  Q0  |  Q1
+------------------------------
+  0  |  0  |  0  |  0   |  0
+  1  |  0  |  0  |  0   |  0
+  1  |  0  |  1  |  1   |  0
+  0  |  0  |  1  |  1   |  0
+  0  |  0  |  0  |  1   |  0
+  0  |  1  |  1  |  1   |  1
+  0  |  0  |  0  |  1   |  1
+
+  
 ## External hardware
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
